@@ -1,0 +1,13 @@
+workspace_path: workspace
+scan_timeout_s: 20
+max_file_mb: 150
+profiles:
+  fast:
+    include_tags: ["core"]
+  full:
+    include_tags: []
+  custom:
+    include_namespaces: []
+    exclude_tags: []
+export_defaults:
+  formats: ["json","md","html"]
